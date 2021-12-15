@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intermail, un email local sécuriser</title>
+    </head>
+    <body>
+        <img src="./img/Savoy_International.png"alt="Savoy_International" height="100">
+        <h2>Bienvenue sur Intermail</h2>
+        <form action="contact.html">
+            <fieldset>
+                <legend>Créez vote compte Intermail</legend>
+                
+                    <label for="telinput"></label>
+                    <input type="tel" name="Telephone" id="telinput" placeholder ="Numero de telephone" autofocus><br>
+                </div>
+                <sub>Nous utiliserons votre numéro de telephone pour proteger votre compte.<br>
+                Il ne sera pas visibles par autrui</sub>
+                <div>
+                    <label for="datinput"></label>
+                    <input type="date" name="date" id="datinput" placeholder ="Date de naissance" required>
+                </div>
+                <div>
+                    <label id="sexe">sexe</label>
+                    <select name="sexe" id="sexe" required>
+                        <option>Masculin</option>
+                        <option>Feminin</option>
+                    </select>
+                </div>
+                <input type="button" value="retour">
+                <input type="button" value="suivant">
+                <input type="reset" value="Annuler">
+            </fieldset>
+        </form>
+    </body>
+</html>
